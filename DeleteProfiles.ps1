@@ -7,8 +7,8 @@
  
 #Setup script variables
 #add computers to computers variable to search for profiles on those computers
-	[array] $Computers = "aaunswv17","aaunswv18","aaunswv20","aaunswv21"
-	$log = "\\aaunswv17\d$\24x7\ProfileDeletion\log.txt"
+	[array] $Computers = "Server1","server2","server3","server4"
+	$log = "\\server\d$\24x7\ProfileDeletion\log.txt"
 	$date = Get-Date
 
 #Reset variables
