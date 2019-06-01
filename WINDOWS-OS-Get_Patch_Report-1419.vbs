@@ -93,3 +93,4 @@ Set objWMI = Nothing
 WScript.Echo var_report
 
 WScript.Quit(0)
+    
