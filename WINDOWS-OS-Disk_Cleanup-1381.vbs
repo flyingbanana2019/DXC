@@ -59,7 +59,7 @@ REM     a.  Which drive? C
 REM     b.  Location of installer files/folders? C:/Software or Softwares; C:/Install
 REM 2.  Move or clear Temp/Tempo/TMP/Software/Drivers/Install folders
 REM     Delete User Profiles in C:\Documents and Settings older than 2015
-REM     a.  Criteria for move or clear?  How to determine if it is a move or clear? If the other drive can still accommodate the size, then it’s ‘move’ but if no other drive to transfer it to, then it should be cleared
+REM     a.  Criteria for move or clear?  How to determine if it is a move or clear? If the other drive can still accommodate the size, then itâ€™s â€˜moveâ€™ but if no other drive to transfer it to, then it should be cleared
 REM     b.  Specify folder for Temp (is it system temp?) Same name. Move them all to a folder like <FromDriveC>
 REM     c.  Specify folder for Tempo
 REM     d.  Specify folder for TMP (is it system tmp?)
@@ -676,3 +676,4 @@ Private Sub CheckParameter
 
     GetServerListFromFile
 End Sub
+                                                                
