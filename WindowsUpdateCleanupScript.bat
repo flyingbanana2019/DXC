@@ -11,3 +11,4 @@ if exist %windir%\softwaredistribution del /s /q %windir%\softwaredistribution
 net start wuauserv
 echo.
 echo Also check %windir%\windowsupdate.log for errors.
+
