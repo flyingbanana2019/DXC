@@ -6,7 +6,7 @@ REM Created: 2013-07-08 Updated: 2013-07-12
 REM -----------------------------------------
 
 REM |****** USAGE *******
-REM To use systeminfo method don´t pass any parameter
+REM To use systeminfo method donÂ´t pass any parameter
 REM To use wmic method pass "any" parameter
 REM systeminfo format is:   System Boot Time:          02/07/2013, 08:02:16 p.m.  (Server 2008 and above)
 REM                         System Up Time:            39 Days, 21 Hours, 23 Minutes, 14 Seconds (Server 2003 and before)
