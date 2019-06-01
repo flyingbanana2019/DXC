@@ -2,7 +2,7 @@
 
 rem ***************************************
 rem Made by Esteban Mena * emenasol@hp.com
-rem Script based on Disk Clean Up Procedure ñ L1 - Windows - Clorox.doc document
+rem Script based on Disk Clean Up Procedure ‚Äì L1 - Windows - Clorox.doc document
 rem ***************************************
 
 
@@ -101,9 +101,9 @@ echo *********************************************************
 echo.
 
 rem ***************************************************************** 
-rem Delete ì$Uninstall Folders and $Uninstall logs filesî older than 6 moths
+rem Delete ‚Äú$Uninstall Folders and $Uninstall logs files‚Äù older than 6 moths
 rem ***************************************************************** 
-echo Deleting ì$Uninstall Folders and $Uninstall logs filesî older than 6 moths
+echo Deleting ‚Äú$Uninstall Folders and $Uninstall logs files‚Äù older than 6 moths
 echo.
 forfiles /P "%SystemRoot%" /M $NtUninstallKB* /D -180 /c "cmd /c if @isdir==TRUE ECHO @path" 
 forfiles /P "%SystemRoot%" /M $NtUninstallKB* /D -180 /c "cmd /c if @isdir==TRUE RMDIR /S /Q @path"
