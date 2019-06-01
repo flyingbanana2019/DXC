@@ -29,7 +29,7 @@
 '27/07/2012  Sergio Lambrisca   Correct get HW Dell events
 '16/08/2012  Sergio Lambrisca   Correct get HW HP events, add information code to detect power lost
 '29/08/2012  Sergio Lambrisca   Add NIC status
-'09/01/2013  Sergio Lambrisca   Solve problems in events display.  In some case the server have a boot in the last week and the script don´t show any event.
+'09/01/2013  Sergio Lambrisca   Solve problems in events display.  In some case the server have a boot in the last week and the script donÂ´t show any event.
 '11/01/2013  Sergio Lambrisca   Add OS Architecture in the OS detail
 '******************************************************************************************
 Option Explicit
@@ -1766,3 +1766,4 @@ Select Case strType
 	Case Else
 End Select
 End Function
+							
