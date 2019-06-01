@@ -29,7 +29,7 @@ del "%ProgramFiles%\Opsware\agent\bin\parsembsacli20_x86.exe" 2>nul
 del "%ProgramFiles%\Opsware\agent\bin\parsembsacli20_x64.exe" 2>nul
 del /S /Q %WINDIR%\SoftwareDistribution\*.* 2>nul
 net start wuauserv 2>nul
-"%ProgramFiles%\Opsware\agent\pylibs\cog\bs_hardware.bat" –debug 2>nul
+"%ProgramFiles%\Opsware\agent\pylibs\cog\bs_hardware.bat" â€“debug 2>nul
 "%ProgramFiles%\Opsware\agent\pylibs\cog\bs_software.bat 2>nul
 hostname
 
