@@ -60,3 +60,5 @@ Loop
 fileOutput.WriteLine("</TABLE></BODY></HTML>")
 wscript.echo "Result saved in Pat_Install_Status_KB.html file at specified location in line no 15 of this script"
 WScript.Quit
+
+            
