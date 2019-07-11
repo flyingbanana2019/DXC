@@ -3,7 +3,9 @@
 ' Purpose	:	Read in an XML file that contains verification tasks and check these tasks
 ' 				against a remote machine. 
 ' Author	:	Michael van Doren - Application Integration
+' Modified	:	Ben Paltridge - Technical Consultant
 ' Date		:	1.0 Relased 21 july 2005
+'			2.0 Released 12 july 2019
 ' ********************************************************************
 
 On Error Resume Next
